@@ -10,6 +10,15 @@ A small library that adds powerful custom events.
 ```js
 import Evt from "https://cdn.jsdelivr.net/gh/paulkanja/evtsjs@main/es6/Evts.mjs";
 ```
+### Node.js
+Install the module using [`npm`](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager#packages) on a CLI terminal:
+```console
+npm install evtsjs
+```
+To import the module into a script, use `require`:
+```js
+const Evt = require("evtsjs");
+```
 
 ## Using EvtsJS
 ### Creating Events
