@@ -6,6 +6,10 @@ Compound events are created from the `CompoundEvt` class:
 ```js
 const compound = new CompoundEvt("my-compound-evt");
 ```
+When using NodeJS or the ES6 module, `CompoundEvt` can be accessed as a static property of `Evt`:
+```js
+const CompoundEvt = Evt.CompoundEvt;
+```
 ### Binding and Unbinding Events
 Events can be bound to compound events. Bound events fire the compound event when they are fired. Events are bound using the `bind` method:
 ```js
