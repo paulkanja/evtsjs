@@ -127,3 +127,5 @@ evt.addHandler(e =>
 
 evt.call();
 ```
+### Compound Events
+[Compound events](./COMPOUND_EVTS.md) are events that can be fired by other events.
